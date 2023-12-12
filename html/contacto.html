@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
             <div class="container-fluid">
@@ -52,37 +52,38 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="flex-shrink-0">
         <!-- Inicio titulo de pagina contacto -->
         <section id="iniciocontacto">
-
             <div class="d-flex justify-content-start mx-auto p-1">
                 <p>Estamos aquí para ayudarte. Si tienes preguntas, sugerencias o necesitas información adicional, no
                     dudes en ponerte en contacto con nosotros a través de los siguientes medios:</p>
             </div>
-            <div class="container justify-content-center mx-auto p-3">
-                <div class="row g-5">
-                    <div class="col-2">
-                        <div class="p-6">Dirección:</div>
+            <div class="container p-3 justify-content-center">
+                <div class="row ">
+                    <div class="col-lg-2 col-md-3 col-12">
+                        <div class="p-2">Dirección:</div>
                     </div>
-                    <div class="col-6">
-                        <div class="p-6">Av Calle de las Notas Extraviadas, Ciudad del Afine</div>
-                    </div>
-                </div>
-                <div class="row g-5">
-                    <div class="col-2">
-                        <div class="p-6">Teléfono:</div>
-                    </div>
-                    <div class="col-6">
-                        <div class="p-6">1-800-SOS-NOTA</div>
+                    <div class="col-lg-10 col-md-9 col-12">
+                        <div class="p-2">Av Calle de las Notas Extraviadas, Ciudad del Afine</div>
                     </div>
                 </div>
-                <div class="row g-5">
-                    <div class="col-2">
-                        <div class="p-6">Correo:</div>
+
+                <div class="row ">
+                    <div class="col-lg-2 col-md-3 col-12">
+                        <div class="p-2">Teléfono:</div>
                     </div>
-                    <div class="col-6">
-                        <div class="p-6">info@corcheaacademy.com</div>
+                    <div class="col-lg-10 col-md-9 col-12">
+                        <div class="p-2">1-800-SOS-NOTA</div>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-lg-2 col-md-3 col-12">
+                        <div class="p-2">Correo:</div>
+                    </div>
+                    <div class="col-lg-10 col-md-9 col-12">
+                        <div class="p-2">info@corcheaacademy.com</div>
                     </div>
                 </div>
             </div>
@@ -113,9 +114,8 @@
             </div>
         </section>
     </main>
-
-    <footer class="footer">
-        <div class="container">
+    <footer class="footer mt-auto">
+        <div class="container py-3">
             <div class="row">
                 <div class="footer-col">
                     <h4>Corchea Academy ©</h4>
@@ -153,6 +153,13 @@
             </div>
         </div>
     </footer>
+    <!-- scripts de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

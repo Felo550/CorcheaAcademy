@@ -24,7 +24,7 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <header>
     <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
       <div class="container-fluid">
@@ -55,7 +55,7 @@
       </div>
     </nav>
   </header>
-  <main>
+  <main class="flex-shrink-0">
     <!-- Inicio titulo de pagina clases -->
     <section id="inicioclases">
       <div class="container text-center justify-content-center mx-auto p-5">
@@ -77,67 +77,60 @@
             </div>
           </div>
         </div>
-        <div class="container text-center justify-content-center mx-auto p-3">
-          <div class="row row-cols-3 mx-auto p-3 ">
-            <div class="col-md-auto mx-auto p-3">
-              <div class="card mx-auto p-3" style="width: 18rem;">
-                <img src="../images/piano.png" class="card-img-top w-50 mx-auto" alt="Iniciacion al piano">
-                <div class="card-body mx-auto p-3">
-                  <h5 class="card-title">Clase Piano</h5>
-                  <p class="card-text p-2">¡Aprende a tocar el piano desde cero! Este curso es perfecto para
-                    principiantes.</p>
-                  <a href="#" class="btn btn-primary p-1">Ver la clase</a>
-                </div>
+        <div class="row">
+          <!-- Tarjetas de las clases -->
+          <!-- Clase Piano -->
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="card" style="width: 18rem;">
+              <img src="../images/piano.png" class="card-img-top w-50 mx-auto" alt="Iniciacion al piano">
+              <div class="card-body">
+                <h5 class="card-title">Clase Piano</h5>
+                <p class="card-text">¡Aprende a tocar el piano desde cero! Este curso es perfecto para principiantes.</p>
+                <a href="#" class="btn btn-primary">Ver la clase</a>
               </div>
             </div>
-            <div class="col-md-auto mx-auto p-3">
-              <div class="card mx-auto p-3" style="width: 18rem;">
-                <img src="../images/guitarra.png" class="card-img-top w-50 mx-auto" alt="Clase Guitarra">
-                <div class="card-body mx-auto p-3">
-                  <h5 class="card-title">Clase Guitarra</h5>
-                  <p class="card-text p-2 ">Domina la guitarra con nuestras lecciones prácticas. Perfecto para
-                    principiantes y avanzados.</p>
-                  <a href="#" class="btn btn-primary p-1">Ver la clase</a>
-                </div>
+          </div>
+          <!-- Clase Guitarra -->
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="card" style="width: 18rem;">
+              <img src="../images/guitarra.png" class="card-img-top w-50 mx-auto" alt="Clase Guitarra">
+              <div class="card-body">
+                <h5 class="card-title">Clase Guitarra</h5>
+                <p class="card-text">Domina la guitarra con nuestras lecciones prácticas. Perfecto para principiantes y avanzados.</p>
+                <a href="#" class="btn btn-primary">Ver la clase</a>
               </div>
             </div>
-            <div class="col-md-auto mx-auto p-3">
-              <div class="card mx-auto p-3" style="width: 18rem;">
-                <img src="../images/bajo.png" class="card-img-top w-50 mx-auto" alt="Clase Guitarra">
-                <div class="card-body">
-                  <h5 class="card-title">Clase Bajo</h5>
-                  <p class="card-text p-2">Sumérgete en el mundo del bajo eléctrico con nuestro curso completo. Aprende
-                    desde cero o mejora tus
-                    habilidades existentes. Dominarás técnicas de bajo, teoría musical y tocarás diversos estilos.
-                    ¡Descubre tu potencial musical hoy!</p>
-                  <a href="#" class="btn btn-primary p-1">Ver la clase</a>
-                </div>
+          </div>
+          <!-- Clase Bajo -->
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="card" style="width: 18rem;">
+              <img src="../images/bajo.png" class="card-img-top w-50 mx-auto" alt="Clase Bajo">
+              <div class="card-body">
+                <h5 class="card-title">Clase Bajo</h5>
+                <p class="card-text">Sumérgete en el mundo del bajo eléctrico con nuestro curso completo. Aprende desde cero o mejora tus habilidades existentes.</p>
+                <a href="#" class="btn btn-primary">Ver la clase</a>
               </div>
             </div>
-            <div class="col-md-auto mx-auto p-3">
-              <div class="card mx-auto p-3" style="width: 18rem;">
-                <img src="../images/bateria.png" class="card-img-top w-50 mx-auto" alt="Clase Guitarra">
-                <div class="card-body">
-                  <h5 class="card-title">Clase de Batería</h5>
-                  <p class="card-text p-2">¡Descubre el ritmo interior! Nuestro curso de batería te llevará a explorar
-                    el emocionante mundo de
-                    la percusión. Desde principiantes hasta avanzados, aprenderás ritmos, técnicas y grooves que te
-                    convertirán en un baterista versátil. ¡Únete y haz latir el corazón de la música!</p>
-                  <a href="#" class="btn btn-primary p-1">Ver la clase</a>
-                </div>
+          </div>
+          <!-- Clase de Batería -->
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="card" style="width: 18rem;">
+              <img src="../images/bateria.png" class="card-img-top w-50 mx-auto" alt="Clase de Batería">
+              <div class="card-body">
+                <h5 class="card-title">Clase de Batería</h5>
+                <p class="card-text">¡Descubre el ritmo interior! Nuestro curso de batería te llevará a explorar el emocionante mundo de la percusión.</p>
+                <a href="#" class="btn btn-primary">Ver la clase</a>
               </div>
             </div>
-            <div class="col-md-auto mx-auto p-3">
-              <div class="card mx-auto p-3" style="width: 18rem;">
-                <img src="../images/canto.png" class="card-img-top w-50 mx-auto" alt="Clase Guitarra">
-                <div class="card-body">
-                  <h5 class="card-title">Clase de Canto</h5>
-                  <p class="card-text p-2">Descubre tu voz y desata tu potencial artístico. Nuestro curso de canto te
-                    guiará a través de
-                    técnicas vocales, afinación, interpretación y más. Ya sea que seas un principiante o un cantante
-                    experimentado, este curso te ayudará a alcanzar nuevas alturas en tu talento vocal.</p>
-                  <a href="#" class="btn btn-primary p-1">Ver la clase</a>
-                </div>
+          </div>
+          <!-- Clase de Canto -->
+          <div class="col-lg-4 col-md-6 col-12 p-3">
+            <div class="card" style="width: 18rem;">
+              <img src="../images/canto.png" class="card-img-top w-50 mx-auto" alt="Clase de Canto">
+              <div class="card-body">
+                <h5 class="card-title">Clase de Canto</h5>
+                <p class="card-text">Descubre tu voz y desata tu potencial artístico. Nuestro curso de canto te guiará a través de técnicas vocales y más.</p>
+                <a href="#" class="btn btn-primary">Ver la clase</a>
               </div>
             </div>
           </div>
@@ -147,8 +140,8 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container">
+  <footer class="footer mt-auto">
+    <div class="container py-3">
       <div class="row">
         <div class="footer-col">
           <h4>Corchea Academy ©</h4>
