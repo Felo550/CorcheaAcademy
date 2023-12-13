@@ -1,0 +1,13 @@
+// importar partial variables
+@import 'base/variables';
+
+// importar partial general
+@import 'layout/general';
+
+/* Importación de fuentes */
+@import 'base/fonts';
+
+// importar partial footer
+@import 'layout/footer';
+
+@import 'utilities/extendsbutton';
