@@ -1,0 +1,8 @@
+.especialbutton{
+    transition: 1s;
+    &:hover{
+        background-color:#E91E63;
+    }
+    @extend .btn-primary !optional;
+    @extend .btn !optional;
+}

@@ -1,0 +1,54 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: $font-primary;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+p {
+    font-family: $font-primary;
+    font-size: 16px;
+    margin: 0;
+    color: $text-color;
+}
+@mixin fuenteh3 ($size,$margin) {
+    font-size: $size;
+    margin: $margin;
+}
+
+h3 {
+    @include fuenteh3 (24px, 10px);
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+/* Estilos para el iframe en inicioclases */
+#inicioclases {
+    .columna {
+        iframe {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+}
+
+/* Estilo para cambio de color en carrusel */
+.carousel-caption {
+    h5 {
+        color: white;
+    }
+}
